@@ -1,0 +1,30 @@
+---
+configure_dotfiles: true
+
+dotfiles_repo: git@github.com:asmadsen/dotfiles.git
+dotfiles_repo_accept_hostkey: true
+dotfiles_repo_local_destination: ~/src/github.com/asmadsen/dotfiles
+dotfiles_files:
+  - .zshrc
+  - .gitconfig
+  - .gitignore
+
+homebrew_installed_packages:
+  - go
+  - gradle
+  - jenv
+  - thefuck
+  - tree
+  - xz
+  - yamllint
+
+homebrew_cask_apps:
+  - authy
+  - dbngin
+  - docker
+  - google-chrome
+  - iterm2
+  - jetbrains-toolbox
+  - pocket-casts
+  - raspberry-pi-imager
+  - slack
