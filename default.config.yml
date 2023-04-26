@@ -19,8 +19,6 @@ homebrew_installed_packages:
   - yamllint
 
 homebrew_cask_apps:
-  - authy
-  - dbngin
   - docker
   - google-chrome
   - iterm2
@@ -28,3 +26,5 @@ homebrew_cask_apps:
   - pocket-casts
   - raspberry-pi-imager
   - slack
+  - vivaldi
+  - warp
