@@ -24,7 +24,12 @@ homebrew_cask_apps:
   - iterm2
   - jetbrains-toolbox
   - pocket-casts
-  - raspberry-pi-imager
+  - balenaetcher
   - slack
+<<<<<<< Updated upstream
   - vivaldi
   - warp
+=======
+  - todoist
+  - visual-studio-code
+>>>>>>> Stashed changes
