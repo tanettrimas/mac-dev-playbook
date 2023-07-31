@@ -7,29 +7,51 @@ dotfiles_repo_local_destination: ~/src/github.com/asmadsen/dotfiles
 dotfiles_files:
   - .zshrc
   - .gitconfig
+  - .dnb.gitconfig
   - .gitignore
 
 homebrew_installed_packages:
+  - awscli
+  - deno
+  - dive
   - go
   - gradle
+  - graphviz
+  - grep
+  - helm
   - jenv
+  - jq
+  - k6
+  - kube-capacity
+  - kubernetes-cli
+  - kubeval
+  - kustomize
+  - prometheus
+  - terrascan
+  - tfenv
   - thefuck
   - tree
+  - watch
   - xz
   - yamllint
 
 homebrew_cask_apps:
+  - 1password
+  - 1password-cli
+  - arc
+  - chromium
   - docker
   - google-chrome
   - iterm2
   - jetbrains-toolbox
+  - kubecontext
   - pocket-casts
-  - balenaetcher
   - slack
-<<<<<<< Updated upstream
+  - spotify
   - vivaldi
   - warp
-=======
-  - todoist
-  - visual-studio-code
->>>>>>> Stashed changes
+
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask-fonts
+  - robscott/tap # for kube-capacity
