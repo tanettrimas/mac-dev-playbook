@@ -50,9 +50,12 @@ homebrew_cask_apps:
   - iterm2
   - jetbrains-toolbox
   - kubecontext
+  - logitech-presentation
   - pocket-casts
+  - raspberry-pi-imager
   - slack
   - spotify
+  - todoist
   - vivaldi
   - warp
 
