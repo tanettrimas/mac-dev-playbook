@@ -12,6 +12,8 @@ homebrew_installed_packages:
   - opentofu
   - pinentry-mac
   - kubernetes-cli
+  - kubectx
+  - kubens
   - helm
   - kustomize
   - kompose
