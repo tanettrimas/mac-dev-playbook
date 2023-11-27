@@ -1,65 +1,57 @@
 ---
-configure_dotfiles: true
-
-dotfiles_repo: git@github.com:asmadsen/dotfiles.git
-dotfiles_repo_accept_hostkey: true
-dotfiles_repo_local_destination: ~/src/github.com/asmadsen/dotfiles
-dotfiles_files:
-  - .zshrc
-  - .gitconfig
-  - .dnb.gitconfig
-  - .gitignore
-
 homebrew_installed_packages:
-  - awscli
-  - deno
-  - dive
-  - gh
-  - go
-  - gradle
-  - graphviz
-  - grep
-  - helm
-  - jenv
+  - sdkman
+  - docker
+  - docker-buildx
+  - docker-completion
+  - docker-compose
   - jq
-  - k6
-  - kube-capacity
+  - cosign
+  - stow
+  - git
+  - opentofu
+  - pinentry-mac
   - kubernetes-cli
-  - kubeval
+  - helm
   - kustomize
-  - prometheus
-  - terrascan
-  - openjdk
-  - openjdk@11
-  - openjdk@17
-  - python@3.11
-  - tfenv
-  - thefuck
+  - kompose
+  - jq
+  - nvm
+  - node
+  - starship
   - tree
-  - watch
-  - xz
-  - yamllint
+  - wget
+  - pnpm
+  - stow
+  - colima
+  - k3s
+  - k3d
+  - helm
+  - gh
+  - yarn
+  - k6
+  - go
 
 homebrew_cask_apps:
   - 1password
   - 1password-cli
+  - alfred
   - arc
   - chromium
-  - docker
-  - google-chrome
+  - brave-browser
+  - discord
+  - vscodium
+  - firefox
+  - font-hack-nerd-font
+  - intellij-idea
+  - figma
   - iterm2
-  - jetbrains-toolbox
-  - kubecontext
-  - logitech-presentation
-  - pocket-casts
-  - raspberry-pi-imager
+  - postman
+  - ngrok
+  - rustrover
   - slack
   - spotify
-  - todoist
-  - vivaldi
-  - warp
 
 homebrew_taps:
   - homebrew/core
   - homebrew/cask-fonts
-  - robscott/tap # for kube-capacity

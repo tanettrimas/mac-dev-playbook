@@ -15,13 +15,8 @@
     - role: elliotweiser.osx-command-line-tools
     - role: geerlingguy.mac.homebrew
       tags: ['homebrew']
-    - role: geerlingguy.dotfiles
-      when: configure_dotfiles
-      tags: [ 'dotfiles' ]
 
   tasks:
-    - name: Install nvm
+    - name: Restow dotfiles
       ansible.builtin.shell: >
-        curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
-      args:
-        creates: "{{ ansible_env.HOME }}/.nvm/nvm.sh"
+        stow -d {{ ansible_env.HOME }}/dotfiles -t {{ ansible_env.HOME }} --restow
